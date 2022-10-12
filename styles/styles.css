@@ -1,0 +1,56 @@
+.list {
+  text-decoration: none;
+}
+
+.prov-box {
+  display: flex;
+}
+
+.prov-descr {
+  padding-top: 84px;
+  padding-bottom: 84px;
+  padding-left: 30px;
+  background-color: rgba(40, 167, 69, 1);
+  color: #ffffff;
+}
+
+.descr {
+  margin-bottom: 5px;
+  font-family: Open Sans, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.647;
+}
+
+.descr-title {
+  margin-top: 0px;
+  margin-bottom: 26px;
+  font-family: Open Sans, sans-serif;
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.263;
+}
+
+.descr-text {
+  margin-top: 0px;
+  margin-bottom: 17px;
+  font-family: Open Sans, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.564;
+  color: #ffffff;
+}
+
+.prov-button {
+  display: block;
+  width: 167px;
+  height: 50px;
+  border: #ffffff;
+  border-radius: 4px;
+  margin-top: 0px;
+  font-family: Open Sans, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.564;
+  color: #ffffff;
+}
