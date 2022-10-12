@@ -1,5 +1,23 @@
+img {
+    display: block;
+}
 
+.list {
+    list-style: none;
+}
 
+.link {
+    text-decoration: none;
+}
+
+.container {
+    width: 1360px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0 auto;
+}
+
+/* We provide */
 
 .prov-box {
   display: flex;
@@ -54,24 +72,7 @@
   color: #ffffff;
 }
 
-img {
-    display: block;
-}
-
-.list {
-    list-style: none;
-}
-
-.link {
-    text-decoration: none;
-}
-
-.container {
-    width: 1360px;
-    padding-left: 30px;
-    padding-right: 30px;
-    margin: 0 auto;
-}
+/* Request Callback */
 
 .callback-box {
     padding-top: 78px;
