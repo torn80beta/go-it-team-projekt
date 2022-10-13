@@ -1,5 +1,5 @@
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   font-weight: 400;
 }
@@ -28,6 +28,12 @@ div {
   margin: 0;
   padding: 0;
 }
+.container {
+  max-width: 1360px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 0 auto;
+}
 
 /* Header */
 
@@ -36,15 +42,15 @@ div {
   padding-right: 0;
 }
 
-.header {
+.header .container {
   position: relative;
 }
 
 .navigation {
   position: absolute;
   display: flex;
-  padding-left: 50px;
-  padding-right: 46px;
+  padding-left: 85px;
+  padding-right: 85px;
   width: 100%;
   justify-content: space-between;
   align-items: center;
@@ -84,19 +90,16 @@ div {
 
 /*Hero  */
 
-.hero {
+.hero .container {
   height: 768px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
   color: var(--white-hero-color);
-  background-image: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.4),
-      rgba(0, 0, 0, 0.4)
-    ),
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url(../images/hero-background.jpg);
+  background-clip: content-box;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -162,12 +165,12 @@ img {
   text-decoration: none;
 }
 
-.container {
+/* .container {
   width: 1360px;
   padding-left: 30px;
   padding-right: 30px;
   margin: 0 auto;
-}
+} */
 
 /* We provide */
 
