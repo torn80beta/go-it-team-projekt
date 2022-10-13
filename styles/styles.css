@@ -28,37 +28,52 @@ div {
   margin: 0;
   padding: 0;
 }
+
 /* Header */
-.header {
+
+.container.nav-hero {
+  padding-left: 0;
+  padding-right: 0;
 }
+
+.header {
+  position: relative;
+}
+
 .navigation {
   position: absolute;
   display: flex;
-  left: 50px;
-  width: calc(100vw - 130px);
+  padding-left: 50px;
+  padding-right: 46px;
+  width: 100%;
   justify-content: space-between;
   align-items: center;
   height: 65px;
 }
+
 .logo-svg {
   width: 40px;
   height: 31px;
   fill: var(--green-corporate-color);
 }
+
 .navigation-company-name {
   font-size: 35px;
   line-height: calc(42 / 35);
   text-transform: capitalize;
   color: var(--green-corporate-color);
 }
+
 .navigation-company-name-part {
   color: var(--white-corporate-color);
 }
+
 .navigation-logo {
   display: flex;
   gap: 10px;
   align-items: center;
 }
+
 .navigation-list {
   padding: 0;
   display: flex;
@@ -66,7 +81,9 @@ div {
   align-items: center;
   color: var(--white-corporate-color);
 }
+
 /*Hero  */
+
 .hero {
   height: 768px;
   display: flex;
@@ -84,6 +101,7 @@ div {
   background-position: center;
   background-size: cover;
 }
+
 .hero-title {
   font-weight: 300;
   font-size: 55px;
@@ -91,11 +109,13 @@ div {
   line-height: calc(66 / 55);
   margin-bottom: 39px;
 }
+
 .hero-slogan {
   font-size: 22px;
   line-height: calc(37 / 22);
   margin-bottom: 29px;
 }
+
 .button {
   display: flex;
   min-width: 165px;
@@ -113,12 +133,14 @@ div {
   border: none;
   border-radius: 5px;
 }
+
 .button-svg {
   width: 9px;
   height: 18px;
   fill: var(--white-corporate-color);
   margin-right: 5px;
 }
+
 .button:hover,
 .button:focus,
 .navigation-link:hover,
