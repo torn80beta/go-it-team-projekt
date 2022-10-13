@@ -8,13 +8,6 @@ body {
   --white-corporate-color: #ffffff;
   --white-hero-color: #e9e9e9;
 }
-.link {
-  text-decoration: none;
-  color: inherit;
-}
-li {
-  list-style: none;
-}
 
 h1,
 h2,
@@ -27,6 +20,30 @@ p,
 div {
   margin: 0;
   padding: 0;
+}
+
+img {
+  display: block;
+}
+
+.list {
+  list-style: none;
+}
+
+li {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  max-width: 1360px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 0 auto;
 }
 
 /* Header */
@@ -148,25 +165,6 @@ div {
 .navigation-logo:hover,
 .navigation-logo:focus .navigation-logo-image {
   cursor: pointer;
-}
-
-img {
-  display: block;
-}
-
-.list {
-  list-style: none;
-}
-
-.link {
-  text-decoration: none;
-}
-
-.container {
-  max-width: 1360px;
-  padding-left: 30px;
-  padding-right: 30px;
-  margin: 0 auto;
 }
 
 /* We provide */
