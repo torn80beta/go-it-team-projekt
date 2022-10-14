@@ -212,13 +212,14 @@ li {
   display: block;
   width: 167px;
   height: 50px;
-  border: #ffffff;
-  border-radius: 4px;
   margin-top: 0px;
+  border-color: #ffffff;
+  border-radius: 4px;
   font-family: Open Sans, sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.564;
+  background-color: #28a745;
   color: #ffffff;
 }
 
