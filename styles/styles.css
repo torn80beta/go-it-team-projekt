@@ -166,6 +166,7 @@ li {
   padding-top: 84px;
   padding-bottom: 84px;
   padding-left: 30px;
+  padding-right: 44px;
   background-color: rgba(40, 167, 69, 1);
   color: #ffffff;
 }
@@ -190,6 +191,8 @@ li {
 .descr-text {
   margin-top: 0px;
   margin-bottom: 17px;
+
+  width: 606px;
   font-family: Open Sans, sans-serif;
   font-weight: 400;
   font-size: 18px;
