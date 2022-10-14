@@ -41,17 +41,10 @@ li {
 
 .container {
   max-width: 1360px;
-  padding-left: 30px;
-  padding-right: 30px;
   margin: 0 auto;
 }
 
 /* Header */
-
-.container.nav-hero {
-  padding-left: 0;
-  padding-right: 0;
-}
 
 .header {
   position: relative;
@@ -266,7 +259,6 @@ li {
 .cases-item {
   flex-basis: calc((100% - 24px) / 4);
 }
-
 
 /* Request Callback */
 
