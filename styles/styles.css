@@ -223,7 +223,6 @@ li {
   display: flex;
   margin-bottom: 50px;
 }
-
 .result-main {
   padding-top: 84px;
   padding-bottom: 84px;
@@ -232,7 +231,6 @@ li {
   background: #28a745;
   color: #fff;
 }
-
 .result-second-title {
   margin-bottom: 5px;
   font-family: 'Open Sans';
@@ -240,7 +238,6 @@ li {
   font-size: 20px;
   line-height: 1.65;
 }
-
 .result-title {
   margin-bottom: 26px;
   font-family: 'Open Sans';
@@ -249,7 +246,6 @@ li {
   font-size: 38px;
   line-height: 1.26;
 }
-
 .result-text {
   margin-bottom: 17px;
   font-family: 'Open Sans';
@@ -258,7 +254,6 @@ li {
   font-size: 18px;
   line-height: 1.55;
 }
-
 .result-button {
   background-color: #28a745;
   color: #fff;
