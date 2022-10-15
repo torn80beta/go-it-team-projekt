@@ -436,8 +436,8 @@ li {
 .callback-button {
   width: 620px;
   margin-top: 60px;
-  padding-left: 291px;
-  padding-right: 277px;
+  padding-left: auto;
+  padding-right: auto;
   padding-top: 7px;
   padding-bottom: 10px;
   color: #fff;
