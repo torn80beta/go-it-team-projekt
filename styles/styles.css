@@ -382,11 +382,14 @@ li {
   margin-top: 26px;
   max-width: 606px;
 }
+
 /* Our professional team */
+
 .team{
   padding-top: 49px;
   padding-bottom: 59px;
 }
+
 .team-subtitle{
 font-weight: 400;
 font-size: 20px;
@@ -395,6 +398,7 @@ text-align: center;
 color: #333333;
 margin-bottom: 16px;
 }
+
 .team-title{
 font-family: 'Open Sans';
 font-weight: 300;
@@ -403,6 +407,7 @@ line-height: 1.26;
 text-align: center;
 margin-bottom: 34px;
 }
+
 .team-desc{
 font-weight: 400;
 font-size: 18px;
@@ -410,18 +415,21 @@ line-height: 1.55;
 text-align: center;
 margin-bottom: 45px;
 }
+
 .team-list{
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 19px;
 }
+
 .team-studio{
 padding-top: 11px;
 display: flex;
 flex-direction: column;
 align-items: center;
 }
+
 .team-item-title{
 padding-bottom: 12px;
 font-weight: 400;
@@ -430,6 +438,7 @@ line-height: 1.28;
 text-align: center;
 color: #333333;
 }
+
 .team-item-text{
 font-weight: 400;
 font-size: 18px;
@@ -437,6 +446,34 @@ line-height: 1.55;
 text-align: center;
 color: #333333
 }
+
+.team-social-link {
+  display: block;
+}
+
+.team-thumb {
+  position: relative;
+}
+
+.team-overlay {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+
+  background-color: transparent;
+}
+
+.social-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: flex;
+  gap: 25px;
+
+  transform: translate(-50%, -50%);
+}
+
 /* Request Callback */
 
 .callback-box {
