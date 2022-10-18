@@ -158,6 +158,27 @@ li {
   cursor: pointer;
 }
 
+/* Services */
+
+.our-services {
+  display: flex;
+  gap: 71px;
+  justify-content: center;
+}
+
+.our-services-item {
+  text-align: center;
+  width: 362px;
+
+}
+
+.our-services-link {
+  width: 67px;
+  height: 67px;
+  background-color: #28a745;
+  border-radius: 50%;
+  display: inline-block;
+
 /* We provide */
 
 .prov-box {
