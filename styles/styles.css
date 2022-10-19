@@ -47,11 +47,11 @@ li {
 /* Header */
 
 .header {
-  position: relative;
+  position: absolute;
+  width: 100%;
 }
 
 .navigation {
-  position: absolute;
   display: flex;
   padding-left: 50px;
   padding-right: 46px;
@@ -82,6 +82,7 @@ li {
   display: flex;
   gap: 10px;
   align-items: center;
+  padding: 15px 0;
 }
 
 .navigation-list {
@@ -91,10 +92,13 @@ li {
   align-items: center;
   color: var(--white-corporate-color);
 }
+.navigation-link {
+  padding: 20px 0;
+}
 
 /*Hero  */
 
-.hero {
+.hero-wrapper {
   height: 768px;
   display: flex;
   flex-direction: column;
@@ -383,59 +387,59 @@ li {
   max-width: 606px;
 }
 /* Our professional team */
-.team{
+.team {
   padding-top: 49px;
   padding-bottom: 59px;
 }
-.team-subtitle{
-font-weight: 400;
-font-size: 20px;
-line-height: 1.65;
-text-align: center;
-color: #333333;
-margin-bottom: 16px;
+.team-subtitle {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.65;
+  text-align: center;
+  color: #333333;
+  margin-bottom: 16px;
 }
-.team-title{
-font-family: 'Open Sans';
-font-weight: 300;
-font-size: 38px;
-line-height: 1.26;
-text-align: center;
-margin-bottom: 34px;
+.team-title {
+  font-family: 'Open Sans';
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
+  text-align: center;
+  margin-bottom: 34px;
 }
-.team-desc{
-font-weight: 400;
-font-size: 18px;
-line-height: 1.55;
-text-align: center;
-margin-bottom: 45px;
+.team-desc {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.55;
+  text-align: center;
+  margin-bottom: 45px;
 }
-.team-list{
+.team-list {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 19px;
 }
-.team-studio{
-padding-top: 11px;
-display: flex;
-flex-direction: column;
-align-items: center;
+.team-studio {
+  padding-top: 11px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.team-item-title{
-padding-bottom: 12px;
-font-weight: 400;
-font-size: 25px;
-line-height: 1.28;
-text-align: center;
-color: #333333;
+.team-item-title {
+  padding-bottom: 12px;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 1.28;
+  text-align: center;
+  color: #333333;
 }
-.team-item-text{
-font-weight: 400;
-font-size: 18px;
-line-height: 1.55;
-text-align: center;
-color: #333333
+.team-item-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.55;
+  text-align: center;
+  color: #333333;
 }
 /* Request Callback */
 
