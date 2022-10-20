@@ -470,18 +470,18 @@ color: #333333
   background-color: transparent;
 }
 
-.social-modal {
+.social-actions {
   display: flex;
   justify-content: center;
   gap: 25px;
   opacity: 0;
-  transform: scaleX(0);
+  transform: scale(0);
   transition: transform 400ms cubic-bezier(0.4, 0, 0.2, 1),
     opacity 1000ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.team-overlay:hover .social-modal {
-  transform: scaleX(1);
+.team-overlay:hover .social-actions {
+  transform: scale(1);
   opacity: 1;
 }
 
