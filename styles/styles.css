@@ -410,7 +410,6 @@ li {
   padding-top: 49px;
   padding-bottom: 59px;
 }
-
 .team-subtitle {
   font-weight: 400;
   font-size: 20px;
@@ -419,7 +418,6 @@ li {
   color: #333333;
   margin-bottom: 16px;
 }
-
 .team-title {
   font-family: 'Open Sans';
   font-weight: 300;
@@ -428,29 +426,24 @@ li {
   text-align: center;
   margin-bottom: 34px;
 }
-
 .team-desc {
-  font-weight: 400;
   font-size: 18px;
   line-height: 1.55;
   text-align: center;
   margin-bottom: 45px;
 }
-
 .team-list {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 19px;
 }
-
 .team-studio {
   padding-top: 11px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
 .team-item-title {
   padding-bottom: 12px;
   font-weight: 400;
@@ -459,7 +452,6 @@ li {
   text-align: center;
   color: #333333;
 }
-
 .team-item-text {
   font-weight: 400;
   font-size: 18px;
