@@ -677,21 +677,34 @@ color: #333333
   background-color: #28a745;
 }
 
+<<<<<<< Updated upstream
 .footer {
   background-color: var(--footer-color);
 }
 
 .foot-div {
+=======
+.footer{
+  background-color: var(--footer-color);
+}
+
+.foot-div{
+>>>>>>> Stashed changes
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
+<<<<<<< Updated upstream
 .social-div {
+=======
+.social-div{
+>>>>>>> Stashed changes
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+<<<<<<< Updated upstream
 .social-list {
   display: flex;
 }
@@ -701,6 +714,17 @@ color: #333333
 }
 
 .social-link {
+=======
+.social-list{
+  display: flex;
+}
+
+.social-list .item:not(:last-child){
+  margin-right: 25px;
+}
+
+.social-link{
+>>>>>>> Stashed changes
   justify-content: center;
   align-items: center;
   display: block;
@@ -708,14 +732,28 @@ color: #333333
   height: 35px;
 }
 
+<<<<<<< Updated upstream
 .social-icon {
 }
 
 .footer-text {
+=======
+.social-icon{
+  
+}
+
+.footer-text{
+>>>>>>> Stashed changes
   font-family: 'Open Sans';
   color: white;
   font-weight: 400;
   font-size: 18px;
+<<<<<<< Updated upstream
   line-height: calc(28 / 18);
   text-align: center;
 }
+=======
+  line-height: calc(28/18);
+  text-align: center;
+}
+>>>>>>> Stashed changes
