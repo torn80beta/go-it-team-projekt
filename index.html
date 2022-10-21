@@ -4,70 +4,72 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/styles/styles.css" />
-    <title>Document</title>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
     />
+    <link rel="stylesheet" href="./styles/styles.css" />
   </head>
 
   <body>
     <!-- Header -->
-    <header class="header">
-      <div class="container">
-        <nav class="navigation">
-          <a class="navigation-logo link" href="">
-            <svg class="logo-svg">
-              <use href="./images/sprite.svg#logo"></use>
-            </svg>
-            <p class="navigation-company-name">
-              Finance <span class="navigation-company-name-part">ledger</span>
-            </p>
-          </a>
-          <ul class="navigation-list">
-            <li class="navigation-item">
-              <a class="navigation-link link" href="">Home</a>
-            </li>
-            <li class="navigation-item">
-              <a class="navigation-link link" href="">About</a>
-            </li>
-            <li class="navigation-item">
-              <a class="navigation-link link" href="">Cases</a>
-            </li>
-            <li class="navigation-item">
-              <a class="navigation-link link" href="">Blog</a>
-            </li>
-            <li class="navigation-item">
-              <a class="navigation-link link" href="">Contact</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-
     <main>
-      <!-- Hero -->
-      <section class="hero">
-        <div class="container">
-          <div class="hero-wrapper">
-            <h1 class="hero-title">The sky is the limit</h1>
-            <p class="hero-slogan">We provide world class financial assistance</p>
-            <button class="button" type="button">
-              <svg class="button-svg">
-                <use href="./images/sprite.svg#button-vector"></use>
-              </svg>
-              Read more
-            </button>
+      <div class="header-hero">
+        <header class="header">
+          <div class="container">
+            <nav class="navigation">
+              <a class="navigation-logo link" href="">
+                <svg class="logo-svg">
+                  <use href="./images/sprite.svg#logo"></use>
+                </svg>
+                <p class="navigation-company-name">
+                  Finance <span class="navigation-company-name-part">ledger</span>
+                </p>
+              </a>
+              <ul class="navigation-list">
+                <li class="navigation-item">
+                  <a class="navigation-link link" href="">Home</a>
+                </li>
+                <li class="navigation-item">
+                  <a class="navigation-link link" href="">About</a>
+                </li>
+                <li class="navigation-item">
+                  <a class="navigation-link link" href="">Cases</a>
+                </li>
+                <li class="navigation-item">
+                  <a class="navigation-link link" href="">Blog</a>
+                </li>
+                <li class="navigation-item">
+                  <a class="navigation-link link" href="">Contact</a>
+                </li>
+              </ul>
+            </nav>
           </div>
-        </div>
-      </section>
+        </header>
+
+        <!-- Hero -->
+        <section class="hero">
+          <div class="container">
+            <div class="hero-wrapper">
+              <h1 class="hero-title">The sky is the limit</h1>
+              <p class="hero-slogan">We provide world class financial assistance</p>
+              <button class="button" type="button">
+                <svg class="button-svg">
+                  <use href="./images/sprite.svg#button-vector"></use>
+                </svg>
+                Read more
+              </button>
+            </div>
+          </div>
+        </section>
+      </div>
 
       <!-- Services -->
        <!-- Services -->
@@ -283,6 +285,7 @@
                           target="_blank"
                           rel="noopener noreferrer nofollow"
                         >
+                          <!-- ewigrnh -->
                           <svg width="35px" height="35px">
                             <use href="./images/sprite.svg#icon-facebook"></use>
                           </svg>
@@ -468,6 +471,20 @@
         </div>
       </section>
 
+      <section class="blog-post-section">
+        <img src="images/notes.jpg" alt="notebook and coffee" />
+        <div class="blog-post-box">
+          <p class="blog-post-date">April 16 2020</p>
+          <h2 class="blog-post-title">Blog Post One</h2>
+          <p class="blog-post-txt">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, ipsum dignissimos
+            quae laudantium asperiores nam aliquid impedit harum illum dolore explicabo ab dolores
+            itaque rerum temporibus doloribus iste maiores deleniti?
+          </p>
+          <button type="button" class="blog-post-button">Read Our Blog</button>
+        </div>
+      </section>
+
       <!-- Request Callback -->
       <section class="callback">
         <h2 class="visually-hidden">Request Callback</h2>
@@ -490,33 +507,36 @@
 
     <!-- Footer  -->
     <footer class="footer">
-      <div class="container">
-        <ul class="social-list list">
-          <li class="social-item">
-            <a class="social-link link"
-              ><svg class="social-icon">
-                <use></use></svg
-            ></a>
-          </li>
-          <li class="social-item">
-            <a class="social-link link"
-              ><svg class="social-icon">
-                <use></use></svg
-            ></a>
-          </li>
-          <li class="social-item">
-            <a class="social-link link"
-              ><svg class="social-icon">
-                <use></use></svg
-            ></a>
-          </li>
-          <li class="social-item">
-            <a class="social-link link"
-              ><svg class="social-icon">
-                <use></use></svg
-            ></a>
-          </li>
-        </ul>
+      <div class="foot-div container">
+        <p class="footer-text">Copyright © 2021 - FinanceLedger</p>
+        <div class="social-div">
+          <ul class="social-list list">
+            <li class="item">
+              <a class="social-link link">
+                <svg width="35px" height="35px" class="social-icon">
+                  <use href="./images/spritenew.svg#icon-facebook"></use></svg
+              ></a>
+            </li>
+            <li class="item">
+              <a class="social-link link">
+                <svg width="35px" height="35px" class="social-icon">
+                  <use href="./images/spritenew.svg#icon-twitter"></use></svg
+              ></a>
+            </li>
+            <li class="item">
+              <a class="social-link link">
+                <svg width="40px" height="35px" class="social-icon">
+                  <use href="./images/spritenew.svg#icon-youtube"></use></svg
+              ></a>
+            </li>
+            <li class="item">
+              <a class="social-link link">
+                <svg width="31px" height="35px" class="social-icon">
+                  <use href="./images/spritenew.svg#icon-linkedin"></use></svg
+              ></a>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
 
