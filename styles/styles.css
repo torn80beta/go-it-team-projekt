@@ -206,6 +206,7 @@ li {
   display: block;
   width: 167px;
   height: 50px;
+  /* border: 1px solid #fff; */
   margin-top: 0px;
   border-color: #ffffff;
   border-radius: 5px;
