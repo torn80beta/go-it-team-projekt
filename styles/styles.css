@@ -7,6 +7,7 @@ body {
   --green-corporate-color: #28a745;
   --white-corporate-color: #ffffff;
   --white-hero-color: #e9e9e9;
+  --footer-color: #333333;
 }
 
 h1,
@@ -43,7 +44,7 @@ li {
   max-width: 1360px;
   margin: 0 auto;
 }
-
+/* something add */
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -64,6 +65,9 @@ li {
   width: 100%;
 }
 
+.header-hero {
+  position: relative;
+}
 .navigation {
   display: flex;
   padding-left: 50px;
@@ -290,6 +294,7 @@ li {
   display: block;
   width: 167px;
   height: 50px;
+  /* border: 1px solid #fff; */
   margin-top: 0px;
   border-color: #ffffff;
   border-radius: 5px;
@@ -520,6 +525,7 @@ li {
   display: flex;
   flex-direction: column;
   align-items: center;
+
 }
 .team-item-title {
   padding-bottom: 12px;
@@ -542,23 +548,33 @@ padding-top: 11px;
 display: flex;
 flex-direction: column;
 align-items: center;
+
+
 }
 
 .team-item-title {
-padding-bottom: 12px;
-font-weight: 400;
-font-size: 25px;
-line-height: 1.28;
-text-align: center;
-color: #333333;
+  padding-bottom: 12px;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 1.28;
+  text-align: center;
+  color: #333333;
 }
 
 .team-item-text {
+
 font-weight: 400;
 font-size: 18px;
 line-height: 1.55;
 text-align: center;
 color: #333333
+
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.55;
+  text-align: center;
+  color: #333333;
 
 }
 
@@ -659,4 +675,47 @@ color: #333333
   border: none;
   border-radius: 5px;
   background-color: #28a745;
+}
+
+.footer {
+  background-color: var(--footer-color);
+}
+
+.foot-div {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.social-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-list {
+  display: flex;
+}
+
+.social-list .item:not(:last-child) {
+  margin-right: 25px;
+}
+
+.social-link {
+  justify-content: center;
+  align-items: center;
+  display: block;
+  width: 35px;
+  height: 35px;
+}
+
+.social-icon {
+}
+
+.footer-text {
+  font-family: 'Open Sans';
+  color: white;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: calc(28 / 18);
+  text-align: center;
 }
