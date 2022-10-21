@@ -387,11 +387,13 @@ li {
   margin-top: 26px;
   max-width: 606px;
 }
+
 /* Our professional team */
 .team {
   padding-top: 49px;
   padding-bottom: 59px;
 }
+
 .team-subtitle {
   font-weight: 400;
   font-size: 20px;
@@ -400,6 +402,7 @@ li {
   color: #333333;
   margin-bottom: 16px;
 }
+
 .team-title {
   font-family: 'Open Sans';
   font-weight: 300;
@@ -408,6 +411,7 @@ li {
   text-align: center;
   margin-bottom: 34px;
 }
+
 .team-desc {
   font-weight: 400;
   font-size: 18px;
@@ -415,33 +419,76 @@ li {
   text-align: center;
   margin-bottom: 45px;
 }
+
 .team-list {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 19px;
 }
+
 .team-studio {
-  padding-top: 11px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+padding-top: 11px;
+display: flex;
+flex-direction: column;
+align-items: center;
 }
+
 .team-item-title {
-  padding-bottom: 12px;
-  font-weight: 400;
-  font-size: 25px;
-  line-height: 1.28;
-  text-align: center;
-  color: #333333;
+padding-bottom: 12px;
+font-weight: 400;
+font-size: 25px;
+line-height: 1.28;
+text-align: center;
+color: #333333;
 }
+
 .team-item-text {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 1.55;
-  text-align: center;
-  color: #333333;
+font-weight: 400;
+font-size: 18px;
+line-height: 1.55;
+text-align: center;
+color: #333333
 }
+
+.team-social-link {
+  display: flex;
+  width: 35px;
+  height: 35px;
+}
+
+.team-thumb {
+  display: block;
+  position: relative;
+}
+
+.team-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.social-actions {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  opacity: 0;
+  transform: scale(0);
+  transition: transform 400ms cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 1000ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.team-overlay:hover .social-actions {
+  transform: scale(1);
+  opacity: 1;
+}
+
 /* Request Callback */
 
 .callback-box {
